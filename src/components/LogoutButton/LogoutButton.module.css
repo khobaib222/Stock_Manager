@@ -1,0 +1,24 @@
+.signout {
+  background-color: white;
+  color: rgb(91, 47, 173);
+  width: 80px;
+  height: 80px;
+  border: 2px solid rgb(91, 47, 173);
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0px 5px 10px -3px;
+  transition: 0.3s;
+}
+.signout:hover {
+  background-color: rgb(91, 47, 173);
+  color: white;
+  cursor: pointer;
+}
+.signout:active {
+  background-color: white;
+  color: rgb(91, 47, 173);
+}

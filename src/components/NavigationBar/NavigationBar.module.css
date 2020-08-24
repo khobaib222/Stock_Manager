@@ -1,0 +1,66 @@
+.navBar {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  top: 0;
+  background-color: white;
+  position: sticky;
+  z-index: 1;
+}
+.navButton {
+  background-color: white;
+  border: 0;
+  padding: 8px;
+  margin: 8px;
+  font-family: Roboto;
+  font-weight: 400;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.navButton:hover {
+  background-color: rgb(106, 50, 211);
+  color: white;
+}
+.navButton:focus {
+  outline: none !important;
+}
+.navButton:active {
+  background-color: white;
+  color: black;
+}
+.navBar > section {
+  display: flex;
+  flex-direction: row;
+}
+.navBar > section > h3 {
+  margin: auto;
+  margin-left: 10px;
+  font-family: Roboto;
+  word-break: none;
+}
+.navBar > section > h3:first-of-type {
+  background-color: rgb(106, 50, 211);
+  color: white;
+  padding: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 10px;
+}
+.navBar > section > h3:last-of-type {
+  color: rgb(91, 47, 173);
+}
+.user {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: rgb(225, 225, 225);
+  margin-left: 20px;
+}
+.user > p {
+  margin: auto;
+  margin-left: 16px;
+  margin-right: 16px;
+  color: black;
+}

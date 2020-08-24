@@ -1,0 +1,149 @@
+.productForm {
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  padding: 16px;
+  margin: auto;
+  margin-top: 20vh;
+  position: sticky;
+  top: 30vh;
+  box-shadow: 0px 5px 10px -3px;
+}
+.title {
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  padding: 50px;
+}
+.title > h1 {
+  font-size: 100px;
+  font-family: Roboto;
+  color: rgb(91, 47, 173);
+}
+.productForm > input,
+button,
+section {
+  padding: 8px;
+  margin: 12px;
+}
+.productForm > button {
+  margin-top: 30px;
+}
+.productForm > section {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: rgb(226, 85, 85);
+}
+.productForm > input {
+  border: 0;
+  border-bottom: 1px solid black;
+}
+.productForm > button {
+  background-color: rgb(91, 47, 173);
+  color: white;
+  font-family: Roboto;
+  border: 2px solid rgb(91, 47, 173);
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.productForm > input,
+button:focus {
+  outline: none !important;
+}
+.productForm > button:hover {
+  background-color: white;
+  color: rgb(91, 47, 173);
+}
+.productForm > button:active {
+  background-color: rgb(91, 47, 173);
+  color: white;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  min-height: 50vh;
+  min-width: fit-content;
+  margin-bottom: 20px;
+}
+.productTable {
+  min-width: 800px;
+  position: relative;
+  margin-top: 20px;
+  box-shadow: 0px 5px 10px -3px;
+  border-radius: 20px;
+}
+.productTable tr:first-of-type td:first-of-type {
+  border-top-left-radius: 20px;
+}
+.productTable tr:first-of-type td:last-of-type {
+  border-top-right-radius: 20px;
+}
+.productTable tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 20px;
+}
+.productTable tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 20px;
+}
+tr:nth-child(1) td {
+  background-color: rgb(91, 47, 173);
+  color: white;
+  padding: 16px;
+}
+tr td {
+  text-align: center;
+  padding: 16px;
+}
+.productListContainer {
+  margin: auto;
+  padding: 20px;
+}
+.productTable tr td > button {
+  border: 0;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.productTable thead td {
+  position: sticky;
+  top: 72px;
+}
+.productTable tr td:nth-child(4) > button {
+  background-color: white;
+  border: 2px solid rgba(23, 140, 235, 0.767);
+  color: rgba(23, 140, 235, 0.767);
+}
+.productTable tr td:nth-child(4) > button:hover {
+  background-color: rgba(23, 140, 235, 0.767);
+  color: white;
+}
+.productTable tr td:nth-child(4) > button:focus {
+  outline: none !important;
+}
+.productTable tr td:nth-child(4) > button:active {
+  background-color: white;
+  color: rgba(23, 140, 235, 0.767);
+}
+
+.productTable tr td:nth-child(5) > button {
+  background-color: white;
+  border: 2px solid rgba(246, 69, 69, 0.794);
+  color: rgba(246, 69, 69, 0.794);
+}
+.productTable tr td:nth-child(5) > button:hover {
+  background-color: rgba(246, 69, 69, 0.794);
+  color: white;
+}
+.productTable tr td:nth-child(5) > button:focus {
+  outline: none !important;
+}
+.productTable tr td:nth-child(5) > button:active {
+  background-color: white;
+  color: rgba(246, 69, 69, 0.794);
+}
